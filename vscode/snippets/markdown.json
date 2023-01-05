@@ -1,0 +1,56 @@
+{
+"mdtitle": {
+	"prefix": ["mdt"],
+	"body": [
+		"+++",
+		"title = \"${TM_FILENAME_BASE}\"",
+		"+++",
+		""
+	],
+	"description": "Title."
+},
+"detail_vv": {
+	"prefix": ["vv", "व्व्"],
+	"body": [
+		"<details open><summary>विश्वास-प्रस्तुतिः</summary>", "",
+		"${TM_SELECTED_TEXT}${CLIPBOARD}",
+		"</details>",
+		"",
+		"<details><summary>मूलम्</summary>", "",
+		"${TM_SELECTED_TEXT}${CLIPBOARD}",
+		"</details>",
+		""
+	],
+	"description": "स-मूल-विश्वास-प्रस्तुतिः."
+},
+"detail_vt": {
+	"prefix": ["vvv", "व्व्व्"],
+	"body": [
+		"<details open><summary>विश्वास-टिप्पनी</summary>", "",
+		"${TM_SELECTED_TEXT}${CLIPBOARD}",
+		"</details>",
+		""
+	],
+	"description": "विश्वास-टिप्पनी"
+},
+"detail_dd": {
+	"prefix": ["dd", "द्द्"],
+	"body": [
+		"<details><summary>विस्तारः (द्रष्टुं नोद्यम्)</summary>", "",
+		"${TM_SELECTED_TEXT}${CLIPBOARD}",
+		"</details>",
+		""
+	],
+	"description": "विस्तारः"
+},
+"detail_mm": {
+	"prefix": ["mm", "म्म्"],
+	"body": [
+		"<details><summary>मूलम्</summary>", "",
+		"${TM_SELECTED_TEXT}${CLIPBOARD}",
+		"</details>",
+		""
+	],
+	"description": "विस्तारः"
+}
+}
