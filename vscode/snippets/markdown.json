@@ -1,11 +1,18 @@
 {
 "mdtitle": {
-	"prefix": ["mdt"],
+	"prefix": ["mdt", "sdoc"],
 	"body": [
 		"+++",
 		"title = \"${TM_FILENAME_BASE}\"",
 		"+++",
 		""
+	],
+	"description": "Title."
+},
+"source": {
+	"prefix": ["sss",],
+	"body": [
+		"Source: [TW](${CLIPBOARD})"
 	],
 	"description": "Title."
 },
