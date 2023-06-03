@@ -10,7 +10,7 @@
 	"description": "Title."
 },
 "source": {
-	"prefix": ["sss",],
+	"prefix": ["sss", "स्स्"],
 	"body": [
 		"Source: [TW](${CLIPBOARD})"
 	],
@@ -44,6 +44,16 @@
 	"prefix": ["dd", "द्द्"],
 	"body": [
 		"<details><summary>विस्तारः (द्रष्टुं नोद्यम्)</summary>", "",
+		"${TM_SELECTED_TEXT}${CLIPBOARD}",
+		"</details>",
+		""
+	],
+	"description": "विस्तारः"
+},
+"detail_ee": {
+	"prefix": ["ee", "ए"],
+	"body": [
+		"<details><summary>English</summary>", "",
 		"${TM_SELECTED_TEXT}${CLIPBOARD}",
 		"</details>",
 		""
