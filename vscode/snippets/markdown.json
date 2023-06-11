@@ -40,6 +40,16 @@
 	],
 	"description": "विश्वास-टिप्पनी"
 },
+"detail_tt": {
+	"prefix": ["tt", "त्त्"],
+	"body": [
+		"<details open><summary>तमिऴ्</summary>", "",
+		"${TM_SELECTED_TEXT}${CLIPBOARD}",
+		"</details>",
+		""
+	],
+	"description": "विश्वास-टिप्पनी"
+},
 "detail_dd": {
 	"prefix": ["dd", "द्द्"],
 	"body": [
