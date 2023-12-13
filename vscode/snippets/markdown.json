@@ -9,6 +9,13 @@
 	],
 	"description": "Title."
 },
+"figure_hugo": {
+	"prefix": ["fig"],
+	"body": [
+		"{{< figure src=\"../images/${CLIPBOARD}\" title=\"\" class=\"thumbnail\">}}",
+	],
+	"description": "Figure (hugo)."
+},
 "source": {
 	"prefix": ["sss", "स्स्"],
 	"body": [
@@ -43,7 +50,17 @@
 "detail_tt": {
 	"prefix": ["tt", "त्त्"],
 	"body": [
-		"<details open><summary>तमिऴ्</summary>", "",
+		"<details><summary>तमिऴ्</summary>", "",
+		"${TM_SELECTED_TEXT}${CLIPBOARD}",
+		"</details>",
+		""
+	],
+	"description": "विश्वास-टिप्पनी"
+},
+"detail_tt": {
+	"prefix": ["kk", "क्क्", "ಕ್ಕ್"],
+	"body": [
+		"<details><summary>कन्नडम्</summary>", "",
 		"${TM_SELECTED_TEXT}${CLIPBOARD}",
 		"</details>",
 		""
